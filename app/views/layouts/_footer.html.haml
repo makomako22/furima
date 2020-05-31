@@ -1,0 +1,87 @@
+.footer_wrap
+  .footer__top
+    .footer__top--text
+      .text_up
+        スマホでかんたんフリマアプリ
+      .text_bottom
+        今すぐ無料ダウンロード！
+      .text_image
+        = image_tag 'footer_logo.png', class: 'footer_logo'
+        = image_tag 'app-store.svg', class: 'apple_logo'
+        = image_tag 'google-play.svg', class: 'google_logo'
+    .footer__top--image
+      = image_tag 'footer_image01.png'
+.footer__bottom
+  %nav.bottom__menu
+    .bottom__menu--box.mgr40
+      %h2.bottom__menu--h2
+        メルカリについて
+      %ul.bottom__menu--ul
+        %li.bottom__menu--li
+          会社概要（運営会社）
+        %li.bottom__menu--li
+          採用情報
+        %li.bottom__menu--li
+          プレスリリース
+        %li.bottom__menu--li
+          公式ブログ
+        %li.bottom__menu--li
+          メルカリロゴ利用ガイドライン
+      = icon('fab', 'twitter',class: 'fa-2x twitter_icon')
+      = icon('fab', 'facebook-square',class: 'fa-2x facebook_icon')
+    .bottom__menu--box.mgr40
+      %h2.bottom__menu--h2
+        ヘルプ＆ガイド
+      %ul.bottom__menu--ul
+        %li.bottom__menu--li
+          メルカリガイド
+        %li.bottom__menu--li
+          らくらくメルカリ便
+        %li.bottom__menu--li
+          ゆうゆうメルカリ便
+        %li.bottom__menu--li
+          梱包・発送たのメル便
+        %li.bottom__menu--li
+          車体取引ガイド
+        %li.bottom__menu--li
+          メルカリあんしん・あんぜん宣言！
+        %li.bottom__menu--li
+          偽ブランド品撲滅への取り組み
+        %li.bottom__menu--li
+          メルカリボックス
+        %li.bottom__menu--li
+          スマホ出品・売却相場
+    .bottom__menu--boxes.mgr40
+      %h2.bottom__menu--h2
+        プライバシーと利用規約
+      .bottom__menu--box2
+        %ul.bottom__menu--ul.mgr10
+          %li.bottom__menu--li
+            プライバシーポリシー
+          %li.bottom__menu--li
+            メルカリ利用規約
+          %li.bottom__menu--li
+            安心スマホサポート制度に関する利用規約
+          %li.bottom__menu--li
+            コンプライアンス・ポリシー
+        %ul.bottom__menu--ul
+          %li.bottom__menu--li
+            個人データの安全管理に係る基本方針
+          %li.bottom__menu--li
+            特定商取引に関する表記
+          %li.bottom__menu--li
+            資金決済法に基づく表示
+          %li.bottom__menu--li
+            法令順守と犯罪防止のために
+    .bottom__menu--boxl
+      %h2.bottom__menu--h2
+        国
+      %ul.bottom__menu--ul
+        %li.bottom__menu--li
+          日本
+        %li.bottom__menu--li
+          United States
+  .footer__bottom--logo
+    = image_tag('footer_mercari.jpg')
+    %span.footer__bottom--name
+      © Mercari, Inc.

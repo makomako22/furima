@@ -1,0 +1,133 @@
+.footer_wrap {
+  width: 100vw;
+  background-image: url("/images/footer_bg_image.jpg");
+  background-position: center center;
+}
+
+.footer__top {
+  height: 260px;
+  width: 750px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  &--text {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 417px;
+    .text_up {
+      color: rgb(255, 255, 255);
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+    .text_bottom {
+      color: rgb(255, 255, 255);
+      font-size: 35px;
+      margin-bottom: 20px;
+      white-space: nowrap;
+    }
+    .text_image {
+      display: flex;
+      align-items: center;
+    }
+  }
+  &--image img{
+    height: 260px;
+    width: 300px;
+  }
+}
+
+.footer__bottom {
+  width: 100vw;
+  height: 431px;
+  background-color: rgb(34, 34, 34);
+}
+
+.footer_logo{
+  height: 68px;
+  margin-right: 20px;
+  width: 68px;
+}
+
+.apple_logo {
+  height: 40px;
+  margin-right: 8px;
+  width: 144px;
+}
+
+.google_logo {
+  height: 40px;
+  width: 144px;
+}
+
+.bottom__menu {
+  width: 1020px;
+  margin: auto;
+  display: flex;
+  &--box {
+    margin-top: 18px;
+    width: 24%;
+  }
+  &--boxes {
+    margin-top: 18px;
+    width: 40%;
+  }
+  &--boxl {
+    margin-top: 18px;
+    width: 12%
+  }
+  &--h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+  }
+  &--li {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    margin: 16px 10px 0 0;
+  }
+  &--box2 {
+    display: flex;
+  }
+}
+
+.mgr10 {
+  margin-right: 10px;
+}
+
+.mgr40 {
+  margin-right: 40px;
+}
+
+.twitter_icon {
+  color: white;
+  margin: 30px 20px 0 0;
+}
+
+.facebook_icon {
+  color: white;
+  margin: 30px 0 0 0;
+}
+.footer__bottom {
+  &--logo {
+    width: 1020px;
+    margin: 30px auto 0;
+    text-align: center;
+  }
+  &--name {
+    font-size: 12px;
+    color: white;
+    padding-left: 15px;
+    width: 75%;
+  }
+}
+
+.footer__bottom--logo img{
+  vertical-align: middle;
+  height: 31px;
+  width: 124px;
+  float: left;
+}

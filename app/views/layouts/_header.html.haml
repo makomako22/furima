@@ -1,0 +1,26 @@
+.header_wrap
+  %header.header
+    .header__up
+      .header__up--image
+        = image_tag 'logo.svg', class: 'logo_size'
+      .header__up--search
+        = form_with url: "#", html: {class: 'search__form'},  local: true do |form|
+          = form.text_field :keyword, placeholder: '何かお探しですか？', class: "search__form--text"
+          .form_icon
+            = icon('fas', 'search', class: 'fa-sm') do
+              = form.submit "", class: 'form_send'
+    .header__bottom
+      .header__bottom--leftbox
+        .leftbox__left
+          = link_to "", class: 'leftbox_link' do
+            = icon 'fas', 'list', class: 'leftbox_link__button--red'
+            カテゴリーから探す
+        .leftbox_right
+          = link_to "", class: 'leftbox_link' do
+            = icon 'fas', 'tag', class: 'leftbox_link__button--red'
+            ブランドから探す
+      .header__bottom--rightbox
+        .rightbox__left
+          = link_to "新規会員登録" , "#", class: 'rightbox__left--btn'
+        .rightbox__right
+          = link_to "ログイン" , "#", class: 'rightbox__right--btn'

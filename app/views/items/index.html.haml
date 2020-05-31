@@ -1,0 +1,93 @@
+= render partial: 'layouts/header'
+.main
+  .main__head
+  .main__category
+    .main__category--title
+      人気のカテゴリー
+    .main__category--box
+      %span.category__name
+        レディース
+      %span.category__name
+        メンズ
+      %span.category__name
+        家電・スマホ・カメラ
+  .main__items
+    .main__item--title
+      新着アイテム
+    %ul.main__item
+      %li.main__item--box
+        .item__box--image
+          = image_tag 'shoes.png'
+          .item__box--price
+            ¥1,000
+        .item__box--name
+          くつ
+      %li.main__item--box
+        .item__box--image
+          = image_tag 'shoes.png'
+          .item__box--price
+            ¥1,000
+        .item__box--name
+          くつ
+      %li.main__item--box
+        .item__box--image
+          = image_tag 'shoes.png'
+          .item__box--price
+            ¥1,000
+        .item__box--name
+          くつ
+      %li.main__item--box
+        .item__box--image
+          = image_tag 'shoes.png'
+          .item__box--price
+            ¥1,000
+        .item__box--name
+          くつ
+      %li.main__item--box
+        .item__box--image
+          = image_tag 'shoes.png'
+          .item__box--price
+            ¥1,000
+        .item__box--name
+          くつ
+      %li.main__item--box
+        .item__box--image
+          = image_tag 'shoes.png'
+          .item__box--price
+            ¥1,000
+        .item__box--name
+          くつ
+      %li.main__item--box
+        .item__box--image
+          = image_tag 'shoes.png'
+          .item__box--price
+            ¥1,000
+        .item__box--name
+          くつ
+      %li.main__item--box
+        .item__box--image
+          = image_tag 'shoes.png'
+          .item__box--price
+            ¥1,000
+        .item__box--name
+          くつ
+      %li.main__item--box
+        .item__box--image
+          = image_tag 'shoes.png'
+          .item__box--price
+            ¥1,000
+        .item__box--name
+          くつ
+      %li.main__item--box
+        .item__box--image
+          = image_tag 'shoes.png'
+          .item__box--price
+            ¥1,000
+        .item__box--name
+          くつ
+= render partial: 'layouts/footer'
+.camera__btn
+  .camera__btn--text
+    出品
+  .camera__btn--image
+    = icon('fas', 'camera', class: 'fa-4x')

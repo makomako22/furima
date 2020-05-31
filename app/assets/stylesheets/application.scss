@@ -1,6 +1,9 @@
 @import 'reset';
 @import "font-awesome-sprockets";
 @import "font-awesome";
-@import 'header';
-@import 'footer';
-@import 'items';
+@import 'modules/header';
+@import 'modules/footer';
+@import 'modules/items';
+.wrap {
+  background-color: rgb(245, 245, 245);
+}
